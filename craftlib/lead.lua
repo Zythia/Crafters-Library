@@ -16,7 +16,7 @@ minetest.register_ore({
     clust_size = 3,
     y_min = -31000,
     y_max = -50,
-    
+
 
 })
 

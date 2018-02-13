@@ -8,6 +8,7 @@ minetest.register_node("craftlib:rubber_log",{
 minetest.register_craftitem("craftlib:rubber",{
 
     description="Rubber",
+    inventory_image="craftlib_rubber.png",
 
 })
 

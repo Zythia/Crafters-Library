@@ -1,7 +1,7 @@
 minetest.register_node("craftlib:silver_ore",{
 	
 	description="Silver Ore",
-	tiles={name="default_stone.png^craftlib_prismarite_ore.png"},
+	tiles={name="default_stone.png^craftlib_silver_ore.png"},
 	groups={cracky=2,},
     drop ="silver_lump",
 	

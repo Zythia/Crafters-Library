@@ -46,7 +46,7 @@ minetest.register_craftitem("craftlib:bismuth_crystal",{
 minetest.register_node("craftlib:bismuth_block",{
 
     description="Bismuth",
-    tiles={name="craftlib_bismuth.png"},
+    tiles={name="craftlib_bismuth_block.png"},
     groups={cracky=1,}
 })
 
