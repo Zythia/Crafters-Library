@@ -2,8 +2,8 @@ minetest.register_node("craftlib:aluminium_ore",{
 
     description="Aluminium Ore",
     tiles={name="default_stone.png^craftlib_aluminium_ore.png"},
-    groups={cracky=1,}
-    drop ="aluminium_lump"
+    groups={cracky=1,},
+    drop ="aluminium_lump",
 })
 
 minetest.register_ore({

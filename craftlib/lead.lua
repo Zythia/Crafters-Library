@@ -2,8 +2,8 @@ minetest.register_node("craftlib:lead_ore",{
 
     description="Lead Ore",
     tiles={name="default_stone.png^craftlib_lead_ore.png"},
-    groups={cracky=1,}
-    drop ="lead_lump"
+    groups={cracky=1,},
+    drop ="lead_lump",
 })
 
 minetest.register_ore({

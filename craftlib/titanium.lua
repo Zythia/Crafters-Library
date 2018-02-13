@@ -2,8 +2,8 @@ minetest.register_node("craftlib:titanium_ore",{
 
     description="Titanium Ore",
     tiles={name="default_stone.png^craftlib_titanium_ore.png"},
-    groups={cracky=3,}
-    drop ="titanium_lump"
+    groups={cracky=3,},
+    drop ="titanium_lump",
 })
 
 minetest.register_ore({

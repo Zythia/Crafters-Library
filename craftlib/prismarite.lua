@@ -2,7 +2,7 @@ minetest.register_node("craftlib:prismarite_ore",{
 
     description="Prismarite Ore",
     tiles={name="default_stone.png^craftlib_prismarite_ore.png"},
-    groups={cracky=3,}
+    groups={cracky=3,},
     drop = {
     items = {
         {

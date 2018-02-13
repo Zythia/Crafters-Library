@@ -2,7 +2,7 @@ minetest.register_node("craftlib:skyrite_ore",{
 
     description="Skyrite Ore",
     tiles={name="default_stone.png^craftlib_skyrite_ore.png"},
-    groups={cracky=3,}
+    groups={cracky=3,},
     drop = {
     items = {
         {

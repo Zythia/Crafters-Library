@@ -2,15 +2,12 @@ minetest.register_node("craftlib:rubber_log",{
 	
 	description="Rubber Tree Log",
 	tiles={name="craftlib_rubber_log.png"},
-	groups={choppy=1,}
-	}
-
-
+	groups={choppy=1,},
 })
 
 minetest.register_craftitem("craftlib:rubber",{
 
-    description="Rubber"
+    description="Rubber",
 
 })
 
@@ -18,7 +15,7 @@ minetest.register_node("craftlib:rubber_leaves",{
     
     description="Rubber Tree leaves",
     tiles={name="craftlib_rubber_leaves.png"},
-    groups={,}
+    groups={snappy,},
     drop = {items ={"craftlib:rubber_sappling"}, rarity = 5}
 
 

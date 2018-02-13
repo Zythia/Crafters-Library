@@ -2,7 +2,7 @@ minetest.register_node("craftlib:bismuth_ore",{
 
     description="Bismuth Ore",
     tiles={name="default_stone.png^craftlib_bismuth_ore.png"},
-    groups={cracky=1,}
+    groups={cracky=1,},
     drop = {
     items = {
         {

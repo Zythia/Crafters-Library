@@ -2,8 +2,8 @@ minetest.register_node("craftlib:uranium_ore",{
 
     description="Uranium, Ore",
     tiles={name="default_stone.png^craftlib_uranium_ore.png"},
-    groups={cracky=3,}
-    drop ="uranium_lump"
+    groups={cracky=3,},
+    drop ="uranium_lump",
 })
 
 minetest.register_ore({

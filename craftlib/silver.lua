@@ -2,8 +2,8 @@ minetest.register_node("craftlib:silver_ore",{
 	
 	description="Silver Ore",
 	tiles={name="default_stone.png^craftlib_prismarite_ore.png"},
-	groups={cracky=2,}
-    drop ="silver_lump"
+	groups={cracky=2,},
+    drop ="silver_lump",
 	
 })
  minetest.register_ore({
@@ -28,16 +28,10 @@ minetest.register_ore({
         y_max          = -256,
 })
 
-	
-
-})
-
 minetest.register_craftitem("craftlib:silver_lump",{
 
 	description="Silver Lump",
 	inventory_image="craftlib_silver_lump.png",
-
-	})
 
 })
 
