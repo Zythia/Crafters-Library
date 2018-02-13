@@ -3,7 +3,7 @@ minetest.register_node("craftlib:aurailium_ore",{
     description="aurailium Ore",
     tiles={name="default_stone.png^craftlib_aurailium_ore.png"},
     groups={cracky=3,},
-    drop ="Aurailium",
+    drop ="craftlib:aurailium",
 })
 
 minetest.register_ore({

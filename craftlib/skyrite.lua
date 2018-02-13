@@ -6,23 +6,23 @@ minetest.register_node("craftlib:skyrite_ore",{
     drop = {
     items = {
         {
-            items = {"zythias_ores:skyrite"},
+            items = {"craftlib:skyrite"},
             rarity = 1
         },
         {
-            items = {"zythias_ores:skyrite"},
+            items = {"craftlib:skyrite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:skyrite"},
+            items = {"craftlib:skyrite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:skyrite"},
+            items = {"craftlib:skyrite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:skyrite"},
+            items = {"craftlib:skyrite"},
             rarity = 2
         },
     }

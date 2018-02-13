@@ -3,7 +3,7 @@ minetest.register_node("craftlib:sapphire_ore",{
     description="Sapphire Ore",
     tiles={name="default_stone.png^craftlib_sapphire_ore.png"},
     groups={cracky=1,},
-    drop ="sapphire",
+    drop ="craftlib:sapphire",
 })
 
 minetest.register_ore({

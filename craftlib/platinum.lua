@@ -3,7 +3,7 @@ minetest.register_node("craftlib:platinum_ore",{
     description="Platinum Ore",
     tiles={name="default_stone.png^craftlib_platinum_ore.png"},
     groups={cracky=1,},
-    drop ="platinum",
+    drop ="craftlib:platinum",
 })
 
 minetest.register_ore({

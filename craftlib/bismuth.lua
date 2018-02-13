@@ -6,15 +6,15 @@ minetest.register_node("craftlib:bismuth_ore",{
     drop = {
     items = {
         {
-            items = {"zythias_ores:bismuth_crystal"},
+            items = {"craftlib:bismuth_crystal"},
             rarity = 1
         },
         {
-            items = {"zythias_ores:bismuth_crystal"},
+            items = {"craftlib:bismuth_crystal"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:bismuth_crystal"},
+            items = {"craftlib:bismuth_crystal"},
             rarity = 2
         },
 

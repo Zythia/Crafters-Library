@@ -6,23 +6,23 @@ minetest.register_node("craftlib:prismarite_ore",{
     drop = {
     items = {
         {
-            items = {"zythias_ores:prismarite"},
+            items = {"craftlib:prismarite"},
             rarity = 1
         },
         {
-            items = {"zythias_ores:prismarite"},
+            items = {"craftlib:prismarite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:prismarite"},
+            items = {"craftlib:prismarite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:prismarite"},
+            items = {"craftlib:prismarite"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:prismarite"},
+            items = {"craftlib:prismarite"},
             rarity = 2
         },
     }

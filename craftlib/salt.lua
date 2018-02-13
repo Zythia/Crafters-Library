@@ -5,23 +5,23 @@ minetest.register_node("craftlib:salt_ore",{
     drop = {
     items = {
         {
-            items = {"zythias_ores:salt"},
+            items = {"craftlib:salt"},
             rarity = 1
         },
         {
-            items = {"zythias_ores:salt"},
+            items = {"craftlib:salt"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:salt"},
+            items = {"craftlib:salt"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:salt"},
+            items = {"craftlib:salt"},
             rarity = 2
         },
         {
-            items = {"zythias_ores:salt"},
+            items = {"craftlib:salt"},
             rarity = 2
         },
     }

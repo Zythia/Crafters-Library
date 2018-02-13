@@ -3,7 +3,7 @@ minetest.register_node("craftlib:emerald_ore",{
     description="Emerald Ore",
     tiles={name="default_stone.png^craftlib_emerald_ore.png"},
     groups={cracky=1,},
-    drop ="emerald",
+    drop ="craftlib:emerald",
 })
 
 minetest.register_ore({

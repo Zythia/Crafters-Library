@@ -3,7 +3,7 @@ minetest.register_node("craftlib:zinc_ore",{
     description="Zinc Ore",
     tiles={name="default_stone.png^craftlib_zinc_ore.png"},
     groups={cracky=1,},
-    drop ="zinc",
+    drop ="craftlib:zinc",
 })
 
 minetest.register_ore({

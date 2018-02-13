@@ -3,7 +3,7 @@ minetest.register_node("craftlib:ruby_ore",{
 	description="Ruby Ore",
 	tiles={name="default_stone.png^craftlib_ruby_ore.png"},
 	groups={cracky=1,},
-	drop ="ruby",
+	drop ="craftlib:ruby",
 })
 
 minetest.register_ore({

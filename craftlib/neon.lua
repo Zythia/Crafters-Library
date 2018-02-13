@@ -3,7 +3,7 @@ minetest.register_node("craftlib:neon_ore",{
     description="Neon Ore",
     tiles={name="default_stone.png^craftlib_neon_ore.png"},
     groups={cracky=1,},
-    drop ="neon",
+    drop ="craftlib:neon",
 })
 
 minetest.register_ore({
