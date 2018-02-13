@@ -1,53 +1,21 @@
-minetest.register_node("craftlib:prismarite_ore",{
-	
-	description="Prismarite Ore",
-	tiles={name="default_stone.png^craftlib_prismarite_ore.png"},
-	groups={cracky=3,}
-	drop = {
-    items = {
-        {
-            items = {"craftlib:prismarite"},
-            rarity = 1
-        },
-        {
-            items = {"craftlib:prismarite"},
-            rarity = 2
-        },
-        {
-            items = {"craftlib:prismarite"},
-            rarity = 2
-        },
-        {
-            items = {"craftlib:prismarite"},
-            rarity = 2
-        },
-        {
-            items = {"craftlib:prismarite"},
-            rarity = 2
-        },
-	}
-	}
-})
-
-
-
-minetest.register_ore({
-	
-    ore_type = "scatter",
-    ore = "craftlib:prismarite_ore",
-    wherein = "default:stone",
-    clust_scarcity = 20 * 20 * 20,
-    clust_num_ores = 5,
-    clust_size = 3,
-    y_min = -31000,
-    y_max = -100,
-	
-
-})
-
-minetest.register_craftitem("craftlib:prismarite",{
-
-	description="Prismarite Shard",
-	inventory_image="craftlib_prismarite.png",
-
-	})
+local path = minetest.get_modpath('craftlib')
+dofile(path .. "/craftlib/prismarite.lua")
+dofile(path .. "/craftlib/rubber.lua")
+dofile(path .. "/craftlib/skyrite.lua")
+dofile(path .. "/craftlib/lead.lua")
+dofile(path .. "/craftlib/silver.lua")
+dofile(path .. "/craftlib/oil.lua")
+dofile(path .. "/craftlib/arcana.lua")
+dofile(path .. "/craftlib/salt.lua")
+dofile(path .. "/craftlib/titanium.lua")
+dofile(path .. "/craftlib/uranium.lua")
+dofile(path .. "/craftlib/platinum.lua")
+dofile(path .. "/craftlib/ruby.lua")
+dofile(path .. "/craftlib/sapphire.lua")
+dofile(path .. "/craftlib/emerald.lua")
+dofile(path .. "/craftlib/zinc.lua")
+dofile(path .. "/craftlib/neon.lua")
+dofile(path .. "/craftlib/aluminium.lua")
+dofile(path .. "/craftlib/bismuth.lua")
+dofile(path .. "/craftlib/zythium.lua")
+dofile(path .. "/craftlib/aurailium.lua")
