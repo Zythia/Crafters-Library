@@ -1,2 +1,2 @@
 rename this folder to "craftlib"
-mod not finished, many parts do not work yet
+mod wip. made for minetest 0.5.0
